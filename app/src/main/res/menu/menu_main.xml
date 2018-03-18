@@ -1,0 +1,26 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.qidianxuan.passwordkeeper.MainActivity">
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="0"
+        android:title="设置" />
+    <item
+        android:id="@+id/action_select"
+        android:orderInCategory="10"
+        android:title="全部删除"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/Esc"
+        android:orderInCategory="100"
+        android:title="退出" />
+    <item
+        android:id="@+id/searcher"
+        app:actionViewClass="android.support.v7.widget.SearchView"
+        android:title="search"
+        android:enabled="true"
+        android:visible="true"
+        android:orderInCategory="100"
+        app:showAsAction="always"/>
+</menu>

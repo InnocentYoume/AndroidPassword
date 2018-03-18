@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="   安全"
+        android:textColor="@color/colorPrimary" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/gray" />
+
+    <Switch
+        android:id="@+id/SeSwitch"
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        android:background="@drawable/shiro"
+        android:text="  密码保护"
+        android:textColor="@color/black"
+        android:textSize="18sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/gray" />
+
+    <Button
+        android:id="@+id/password_change"
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        android:gravity="center_vertical"
+        android:background="@drawable/shiro"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:text="  更改保护密码" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/gray" />
+    <Button
+        android:id="@+id/app_save"
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        android:layout_gravity="left"
+        android:background="@drawable/shiro"
+        android:clickable="true"
+        android:focusable="true"
+        android:gravity="center_vertical"
+        android:text="  备份"
+        android:textColor="@color/black"
+        android:textSize="18sp" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/gray" />
+    <Button
+        android:id="@+id/app_load"
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        android:layout_gravity="left"
+        android:background="@drawable/shiro"
+        android:clickable="true"
+        android:focusable="true"
+        android:gravity="center_vertical"
+        android:text="  导入"
+        android:textColor="@color/black"
+        android:textSize="18sp" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/gray" />
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="   关于与帮助"
+        android:textColor="@color/colorPrimary" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/gray" />
+    <Button
+        android:id="@+id/app_about"
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        android:layout_gravity="start"
+        android:background="@drawable/shiro"
+        android:clickable="true"
+        android:focusable="true"
+        android:gravity="center_vertical"
+        android:text="  关于"
+        android:textColor="@color/black"
+        android:textSize="18sp" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/gray" />
+    <Button
+        android:id="@+id/app_help"
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        android:layout_gravity="left"
+        android:background="@drawable/shiro"
+        android:clickable="true"
+        android:focusable="true"
+        android:gravity="center_vertical"
+        android:text="  帮助"
+        android:textColor="@color/black"
+        android:textSize="18sp" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/gray" />
+</LinearLayout>
