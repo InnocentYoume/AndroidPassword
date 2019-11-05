@@ -1,5 +1,5 @@
 # Android_password
-Unfinished yet!
-My first app learned in Cippus_sss
-This app is for keeping the ids and passwords you signed in , Always sign up makes your passwords are too much , so use this app to get it in contorl!
-
+---
+### 目前看来算是烂尾了
+### 功能: 本地保存密码方便记忆 , 类似于记事本
+### 算是本人写的第一个APP 也受到了学长们的不少指导
